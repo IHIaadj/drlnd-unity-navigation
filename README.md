@@ -34,6 +34,8 @@ The task is episodic (Well-defined starting and ending point). In order to solve
 
 * Follow the instructions in the [original Udacity repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to install the different dependencies. 
 
+* Download the Banana Unity Environment suitable for your OS 
+
 * Clone this repo 
 
 * Train the agent by executing the jupyter notebook : navigation.ipynb
