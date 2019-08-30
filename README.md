@@ -11,6 +11,13 @@ In this project, we train a Banana collector that gets a +1 reward for collectin
      alt="Trained Agent" />
 <p align="center"> My Banana Collector at work ;)  </p>
 
+## File organisation 
+* **Report.md** : Describe the used algorithm and the possible future works. 
+* **navigation.ipynd** : Train code and running the agent. 
+* **agent.py** : defines the agent and the learning functions 
+* **model.py** : defines the neural network that aim to predict the Q Action-Value function. 
+* **dqn_checkpoint.pth** : Saved model 
+
 ## Environement details 
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction.
