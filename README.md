@@ -6,6 +6,10 @@ This project contains my solution for the first project of the DRLND : https://w
 In this project, we train a Banana collector that gets a +1 reward for collecting yellow bananas and -1 for the blue bananas. 
 
 **This project implement a Value Based method called Deep Q-Networks**
+     
+<img src="trained_agent.gif" 
+     alt="Trained Agent" />
+<p align="center"> My Banana Collector at work ;)  </p>
 
 ## Environement details 
 
