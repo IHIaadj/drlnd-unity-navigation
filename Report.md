@@ -4,12 +4,12 @@ In this project, we are using PyTorch framework. [PyTorch](https://pytorch.org/)
 It offers several layers and filters to implement all deep learning models. 
 
 ## Learning Algorithm 
-#### Deep Q Networks )
+#### Deep Q Networks
 This project implements a [Value Based method](https://medium.com/@jonathan_hui/rl-value-learning-24f52b49c36d) called Deep Q Networks. 
 In deep Q Networks, we use a neural network to approximate the Q-value function. The state is given as the input and the Q-value of all possible actions is generated as the output. 
 
 In this case, the use of this algorithm has these advantages : 
-* The size of the state is 37. Thus, the memory and computation to use like a simple Q-learning method would be too high. DQN helps us address that kind of problem by using : 
+* The size of the state is 37. Thus, the memory and computation to use like a simple Q-learning method would be too high. DQN helps us address that kind of problem by using these 2 features : 
 
   1. **Experience Replay** : Which assure a more efficient use of previous experience by learning with it multiple times and a better convergence behaviour when training the Q function approximator. In addition, it ensures that the learning is not biased by randomizing the subset from which the agent learns. 
   
