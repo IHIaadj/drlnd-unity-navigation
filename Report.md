@@ -18,7 +18,7 @@ DQN algorithm's parameters :
 
 
 ## Results 
-![](result.png) 
+![](images/result.png) 
 ```
 Episode 100	Average Score: 1.63
 
