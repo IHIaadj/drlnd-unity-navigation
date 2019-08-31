@@ -43,7 +43,8 @@ Episode 400	Average Score: 11.77
 Episode 447	Average Score: 13.03
 
 Environment solved in 347 episodes!	Average Score: 13.03
-``
+``` 
+
 ## Ideas for Future Work 
 * Implement a Double Deep Q Network 
 * Prioritized Experience Replay
